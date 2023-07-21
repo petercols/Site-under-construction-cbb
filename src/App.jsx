@@ -12,7 +12,7 @@ function App() {
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
       <ImageCropper image={logoImage} newSize={0.2} />{' '}
       {/* Tamaño personalizado para el logo */}
-      <p className="text-3xl text-gray-700 mb-4">
+      <p className="text-4xl text-gray-700 mb-4">
         ¡Estamos trabajando en nuestra tienda e-commerce para brindarte la mejor
         experiencia en calefacción!
       </p>
