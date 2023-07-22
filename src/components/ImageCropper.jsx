@@ -1,7 +1,4 @@
-// src/components/ImageCropper.jsx
-
-import React from 'react';
-
+// eslint-disable-next-line react/prop-types
 const ImageCropper = ({ image, newSize }) => {
   const originalSize = 800;
   const adjustedSize = originalSize * newSize;

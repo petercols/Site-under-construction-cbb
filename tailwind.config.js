@@ -1,12 +1,9 @@
-// tailwind.config.js
-module.exports = {
-  purge: [],
-  darkMode: false, // Puedes cambiarlo a 'media' o 'class'
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["index.html", "./src/**/*.jsx"],
   theme: {
     extend: {},
   },
-  variants: {
-    extend: {},
-  },
   plugins: [],
-};
+}
+
